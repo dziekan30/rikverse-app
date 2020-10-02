@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Button } from 'react-bootstrap'
+import { Jumbotron } from 'react-bootstrap'
 
 export default function Header() {
   return (
@@ -7,7 +7,6 @@ export default function Header() {
       <div>
         <img className="profile" src="./Rik.png" alt="" />
         <img className="logo" src="./Rikverse-logo.png" alt="" />
-
       </div>
     </Jumbotron>
   )
