@@ -5,12 +5,13 @@ import { Navbar, Nav } from 'react-bootstrap'
 export default function Navbarr() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Rikverse</Navbar.Brand>
+      <Navbar.Brand href="main">Rikverse</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="#pricing">About</Nav.Link>
+          <Nav.Link href="home">Home</Nav.Link>
+          <Nav.Link href="about">About</Nav.Link>
+          <Nav.Link href="contact">Contact</Nav.Link>
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
