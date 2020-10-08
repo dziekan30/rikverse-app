@@ -31,3 +31,8 @@ body{
 .home {
   text-align-last: center;
 }
+
+.player {
+  margin: 5%;
+  text-align: center;
+}
