@@ -1,3 +1,7 @@
+body{
+  background-image: url(/whitey.png);
+}
+
 .header {
   background-color: #18629F;
   margin-top: 0;

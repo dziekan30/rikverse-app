@@ -7,7 +7,7 @@ import Navbarr from './components/Navbarr'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import About from './components/About'
-import Contact from './components/Contact'
+import ContactUs from './components/ContactUs'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/home" component={Home} exact />
           <Route path="/about" component={About} />
           <Route path="/main" component={Main} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/contact" component={ContactUs} />
           <Route component={Error} />
         </Switch>
       </div>
