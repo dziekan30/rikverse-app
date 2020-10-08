@@ -1,11 +1,14 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   return (
-    <div className="home">
-      <h1>Home</h1>
-      <p>This is Rik Page</p>
-    </div>
+    <Container>
+      <div className="player">
+        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+      </div>
+    </Container>
   )
 
 }
