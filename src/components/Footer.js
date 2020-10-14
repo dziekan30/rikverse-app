@@ -9,8 +9,8 @@ export default function Footer() {
       <div>
         <div>
           <h1>Footer</h1>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-facebook"></i><i class="fab fa-facebook"></i>
+          <i className="fab fa-facebook"></i>
+          <i className="fab fa-facebook"></i><i class="fab fa-facebook"></i>
         </div>
         <div>
           <p>© 2020 Rikverse.  All rights reserved. </p>
