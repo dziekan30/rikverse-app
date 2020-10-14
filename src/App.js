@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import React from 'react';
 import './App.css';
 import Main from './components/Main'
@@ -16,11 +16,14 @@ function App() {
       <div>
         <Navbarr />
         <Switch>
-          <Route path="/home" component={Home} exact />
+          <Route path="/home" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/main" component={Main} />
           <Route path="/contact" component={ContactUs} />
           <Route component={Error} />
+          <Route path="/" >
+            <Redirect to="/home" />
+          </Route>
         </Switch>
       </div>
       <Footer />
