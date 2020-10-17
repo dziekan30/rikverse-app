@@ -9,6 +9,7 @@ import Home from './components/Home'
 import About from './components/About'
 import ContactUs from './components/ContactUs'
 
+
 function App() {
   return (
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/main" component={Main} />
           <Route path="/contact" component={ContactUs} />
+          <Route path="/" component={Home} />
           <Route component={Error} />
           <Route path="/" >
             <Redirect to="/home" />
