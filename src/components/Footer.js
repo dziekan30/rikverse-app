@@ -15,12 +15,18 @@ export default function Footer() {
           </div>
         </div>
         <div >
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/PrettyRIKV3000/">
             <i className="fab fa-facebook-square fa-2x icon"></i>
           </a>
-          <i className="fab fa-instagram fa-2x icon"></i>
+          <a href="https://www.instagram.com/therikverse/">
+            <i className="fab fa-instagram fa-2x icon"></i>
+          </a>
           <i className="fab fa-twitter-square fa-2x icon"></i>
-          <i className="fab fa-youtube fa-2x icon"></i>
+
+          <a href="https://www.youtube.com/user/SomethingLethal/videos">
+            <i className="fab fa-youtube fa-2x icon"></i>
+
+          </a>
         </div>
         <div className="rights">
           <p>© 2020 Rikverse.  All rights reserved. </p>
