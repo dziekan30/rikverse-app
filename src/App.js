@@ -5,7 +5,7 @@ import './App.css';
 import Main from './components/Main'
 import Navbarr from './components/Navbarr'
 import Footer from './components/Footer'
-import Home from './components/Home'
+// import Home from './components/Home'
 import About from './components/About'
 import ContactUs from './components/ContactUs'
 
@@ -17,14 +17,14 @@ function App() {
       <div>
         <Navbarr />
         <Switch>
-          <Route path="/home" component={Home} />
+          {/* <Route path="/home" component={Home} /> */}
           <Route path="/about" component={About} />
           <Route path="/main" component={Main} />
           <Route path="/contact" component={ContactUs} />
-          <Route path="/" component={Home} />
+          <Route path="/" component={Main} />
           <Route component={Error} />
           <Route path="/" >
-            <Redirect to="/home" />
+            <Redirect to="/main" />
           </Route>
         </Switch>
       </div>
