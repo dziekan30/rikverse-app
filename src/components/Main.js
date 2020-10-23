@@ -14,7 +14,11 @@ export default function Main() {
           <p>This is Rik Page</p>
         </div>
         <div className="player" >
-          <ReactPlayer style={{ margin: 'auto' }} url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+          <ReactPlayer
+            style={{ margin: 'auto' }}
+            url='https://www.youtube.com/watch?v=J-8VCL4uSUc'
+            width='80%'
+          />
         </div>
 
       </Container>
