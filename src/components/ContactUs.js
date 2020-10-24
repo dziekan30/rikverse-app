@@ -52,6 +52,7 @@ export default function ContactUs() {
               <input type="submit" className="btn btn-secondary" value="Send Message" />
             </div>
 
+
           </div>
         </form>
       </div>
