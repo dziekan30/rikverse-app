@@ -13,18 +13,18 @@ import ContactUs from './components/ContactUs'
 function App() {
   return (
 
-    <BrowserRouter basename="/" >
+    <BrowserRouter>
       <div>
         <Navbarr />
         <Switch>
           {/* <Route path="/home" component={Home} /> */}
-          <Route path={"about"} component={About} />
-          <Route path={"main"} component={Main} />
-          <Route path={"contact"} component={ContactUs} />
-          <Route path={"/"} component={Main} />
+          <Route path="/about" component={About} />
+          <Route path="/main" component={Main} />
+          <Route path="/contact" component={ContactUs} />
+          <Route path="/" component={Main} />
           <Route component={Error} />
-          <Route path={"/"} >
-            <Redirect to={"main"} />
+          <Route path="/" >
+            <Redirect to="/main" />
           </Route>
         </Switch>
       </div>
