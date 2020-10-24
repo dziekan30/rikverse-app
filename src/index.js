@@ -3,17 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import axios from 'axios';
-
-axios.defaults.baseURL =
-  process.env.NODE_ENV === "development"
-    ? "http://localhost:3000" : "/";
-
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+
+  </BrowserRouter>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
