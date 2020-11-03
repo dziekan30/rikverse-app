@@ -8,15 +8,13 @@ import Footer from './components/Footer'
 import About from './components/About'
 import ContactUs from './components/ContactUs'
 
-
 function App() {
   return (
-
-    <BrowserRouter basename="/the-app">
+    // <BrowserRouter basename="/the-app">
+    <BrowserRouter>
       <div>
         <Navbarr />
         <Switch>
-          {/* <Route path="/home" component={Home} /> */}
           <Route exact path="/main" component={Main} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={ContactUs} />

@@ -8,7 +8,7 @@ export default function Navbarr() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link href="/main">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact">ContactUs</Nav.Link>
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
