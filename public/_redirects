@@ -1,11 +1,7 @@
 /main /
-/main /about 
-/main /contact
 
-/about /
-/about /main
-/about /contact
 
-/contact /
-/contact /main
-/contact /about
+/about /about
+
+
+/contact /contact
