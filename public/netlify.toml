@@ -1,24 +1,17 @@
 [[redirects]]
   from = "/"
   to = "/main"
-  status = 301
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
-
-
+  status = 200
+  force = true
+ 
 [[redirects]]
   from = "/main"
   to = "/about"
-  status = 301
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+  force = true
 
-[[redirects]]
+ [[redirects]]
   from = "/about"
   to = "/contact"
-  status = 301
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+  status = 200
+  force = true
