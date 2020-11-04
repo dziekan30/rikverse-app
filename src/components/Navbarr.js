@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 export default function Navbarr() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="/main">Rikverse</Navbar.Brand>
+      <Navbar.Brand>Rikverse</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Link to="/">Home</Link>
-          <Link to="/about" >About</Link>
-          <Link to="/contact" >ContactUs</Link>
+          <Link className="nav-link" to="/">Home</Link>
+          <Link className="nav-link" to="/about" >About</Link>
+          <Link className="nav-link" to="/contact" >ContactUs</Link>
+
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -28,7 +29,6 @@ export default function Navbarr() {
         </Nav> */}
       </Navbar.Collapse>
     </Navbar>
-
   )
 
 }
