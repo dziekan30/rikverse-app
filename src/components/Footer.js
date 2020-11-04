@@ -11,7 +11,7 @@ export default function Footer() {
               <h1 style={{ color: 'white' }}>RIK<span style={{ color: 'red' }}>VERSE</span></h1>
             </div>
             <div className="col-6">
-              <i class="fas fa-phone-alt"></i><span>Phone Number</span>
+              <i className="fas fa-phone-alt"></i><span>Phone Number</span>
               <h3>000-111-1100</h3>
             </div>
           </div>
